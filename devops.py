@@ -78,7 +78,7 @@ nstep, rc = devops_step(serial_script_cmd, nstep, return_code)
 serial_script_cmd = 'git add -A'
 nstep, rc = devops_step(serial_script_cmd, nstep, return_code)
 # git commit -m'[message]'
-serial_script_cmd =  'git config user.email "you@egmail.com" '
+serial_script_cmd =  'git config user.email "dr.bruce.cottman@gmail.com" '
 nstep, rc = devops_step(serial_script_cmd, nstep, return_code)
 serial_script_cmd = 'git config user.name "bcottman" '
 nstep, rc = devops_step(serial_script_cmd, nstep, return_code)
